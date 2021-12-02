@@ -1,0 +1,88 @@
+* {
+ margin: 0;
+ padding: 0;
+
+}
+
+
+body {
+background-color: #c9d4cc;
+display: flex;
+justify-content: center;
+background-image: url(./img/wave.svg);
+background-repeat: no-repeat;
+background-position:bottom;
+background-position-y: 135%;
+
+}
+
+
+.container{
+    margin-top: 50px;
+    height: 80vh;
+    width: 30vw;
+    background-color: #062d10;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 1px black;
+
+
+
+
+}
+
+form h1 {
+color: white;
+font-size: 42px;
+
+}
+
+form label {
+    font-size: 22px;
+    color: white;
+}
+
+
+.container form {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+
+.resultado {
+    height: 30vh;
+    width: 25vw;
+    background-color: #2050df;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 1px black;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+form input {
+    height: 4vh;
+    width: 15vw;
+    border: 0;
+}
+
+.calcular {
+    border: 0;
+    background-color: #20dfdf;
+    border-radius: 8px;
+    height: 5vh;
+    width: 15vw;
+    color: white;
+    font-size: 25px;
+}
+
+form button:hover {
+    background-color: #2050df;
+}
